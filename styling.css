@@ -1,0 +1,41 @@
+video#bgvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+.l1{
+    float: right;
+}
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+.jumbotron h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.jumbotron h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.jumbotron p .btn{
+    background: rgba(29,167,179);
+    border-radius: 10px;
+    padding: 0 30px;
+    font-size: 30px;
+}
+.jumbotron p .btn:hover{
+    background: rgba(29,167,179,0.5);
+}
+.col-md-4 h2{
+    color: white;
+}
+.col-md-4 p{
+    color: white;
+}
+#about img{
+    height: 40%;
+    width: 80%;
+}
